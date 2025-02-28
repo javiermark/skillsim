@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Toram Online Skill Simulator</h1>
+    </header>
+    <main>
+        <section class="skill-category" id="blade-skill">
+            <h2>Blade Skills</h2>
+            <div class="skill" data-skill-id="2">
+                <img src="hardhit.png" alt="Hard Hit" class="skill-icon">
+                <span class="skill-name">Hard Hit</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="2">
+                <img src="astute.png" alt="Astute" class="skill-icon">
+                <span class="skill-name">Astute</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="3">
+                <img src="trigger.png" alt="Trigger" class="skill-icon">
+                <span class="skill-name">Trigger Slash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="4">
+                <img src="rampage.png" alt="Rampage" class="skill-icon">
+                <span class="skill-name">Rampage</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="5">
+                <img src="meteorbreaker.png" alt="Meteor Breaker" class="skill-icon">
+                <span class="skill-name">Meteor Breaker</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="6">
+                <img src="shutout.png" alt="Shut-Out" class="skill-icon">
+                <span class="skill-name">Shut-Out</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="7">
+                <img src="lunarslash.png" alt="Lunar Slash" class="skill-icon">
+                <span class="skill-name">Lunar Slash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="8">
+                <img src="sonic-blade.png" alt="Sonic Blade" class="skill-icon">
+                <span class="skill-name">Sonic Blade</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="9">
+                <img src="spiral-air.png" alt="Spiral Air" class="skill-icon">
+                <span class="skill-name">Spiral Air</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="10">
+                <img src="sword-tempest.png" alt="Sword Tempest" class="skill-icon">
+                <span class="skill-name">Sword Tempest</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="11">
+                <img src="buster-blade.png" alt="Buster Blade" class="skill-icon">
+                <span class="skill-name">Buster Blade</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="12">
+                <img src="aura-blade.png" alt="Aura Blade" class="skill-icon">
+                <span class="skill-name">Aura Blade</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="13">
+                <img src="sword-mastery.png" alt="Sword Mastery" class="skill-icon">
+                <span class="skill-name">Sword Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="14">
+                <img src="quick-slash.png" alt="Quick Slash" class="skill-icon">
+                <span class="skill-name">Quick Slash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="15">
+                <img src="sword-techniques.png" alt="Sword Techniques" class="skill-icon">
+                <span class="skill-name">Sword Techniques</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="16">
+                <img src="warcry.png" alt="Warcry" class="skill-icon">
+                <span class="skill-name">Warcry</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="17">
+                <img src="berserk.png" alt="Berserk" class="skill-icon">
+                <span class="skill-name">Berserk</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="18">
+                <img src="gladiate.png" alt="Gladiate" class="skill-icon">
+                <span class="skill-name">Gladiate</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="19">
+                <img src="swift-attack.png" alt="Swift Attack" class="skill-icon">
+                <span class="skill-name">Swift Attack</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+        </section>
+
+        <section class="skill-category" id="shot-skills">
+            <h2>Shot Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <img src="power-shot.png" alt="Power Shot" class="skill-icon">
+                <span class="skill-name">Power Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="2">
+                <img src="bullseye.png" alt="Bullseye" class="skill-icon">
+                <span class="skill-name">Bullseye</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="3">
+                <img src="arrow-rain.png" alt="Arrow Rain" class="skill-icon">
+                <span class="skill-name">Arrow Rain</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="4">
+                <img src="snipe.png" alt="Snipe" class="skill-icon">
+                <span class="skill-name">Snipe</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="5">
+                <img src="crossfire.png" alt="Crossfire" class="skill-icon">
+                <span class="skill-name">Crossfire</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="6">
+                <img src="vanquisher.png" alt="Vanquisher" class="skill-icon">
+                <span class="skill-name">Vanquisher</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="7">
+                <img src="twin-storm.png" alt="Twin Storm" class="skill-icon">
+                <span class="skill-name">Twin Storm</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="8">
+                <img src="retrograde-shot.png" alt="Retrograde Shot" class="skill-icon">
+                <span class="skill-name">Retrograde Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="9">
+                <img src="moeba-shot.png" alt="Moeba Shot" class="skill-icon">
+                <span class="skill-name">Moeba Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="10">
+                <img src="paralysis-shot.png" alt="Paralysis Shot" class="skill-icon">
+                <span class="skill-name">Paralysis Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="11">
+                <img src="smoke-dust.png" alt="Smoke Dust" class="skill-icon">
+                <span class="skill-name">Smoke Dust</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="12">
+                <img src="arm-breaker.png" alt="Arm Breaker" class="skill-icon">
+                <span class="skill-name">Arm Breaker</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="13">
+                <img src="parabola-shot.png" alt="Parabola Shot" class="skill-icon">
+                <span class="skill-name">Parabola Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="14">
+                <img src="shot-mastery.png" alt="Shot Mastery" class="skill-icon">
+                <span class="skill-name">Shot Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="15">
+                <img src="sneak-attack.png" alt="Sneak Attack" class="skill-icon">
+                <span class="skill-name">Sneak Attack</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="16">
+                <img src="long-range.png" alt="Long Range" class="skill-icon">
+                <span class="skill-name">Long Range</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="17">
+                <img src="quick-draw.png" alt="Quick Draw" class="skill-icon">
+                <span class="skill-name">Quick Draw</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="18">
+                <img src="samurai-archery-mastery.png" alt="Samurai Archery Mastery" class="skill-icon">
+                <span class="skill-name">Samurai Archery Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="19">
+                <img src="fatal-shot.png" alt="Fatal Shot" class="skill-icon">
+                <span class="skill-name">Fatal Shot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <!-- More Shot Skills -->
+        </section>
+
+        <section class="skill-category" id="magic-skills">
+            <h2>Magic Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <img src="magic_arrows.png" alt="Magic Arrows" class="skill-icon">
+                <span class="skill-name">Magic Arrows</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="2">
+                <img src="magic_javelin.png" alt="Magic Javelin" class="skill-icon">
+                <span class="skill-name">Magic Javelin</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="3">
+                <img src="magic_lances.png" alt="Magic Lances" class="skill-icon">
+                <span class="skill-name">Magic Lances</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="4">
+                <img src="magic_impact.png" alt="Magic Impact" class="skill-icon">
+                <span class="skill-name">Magic Impact</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="5">
+                <img src="magic_finale.png" alt="Magic Finale" class="skill-icon">
+                <span class="skill-name">Magic Finale</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="6">
+                <img src="chronos_shift.png" alt="Chronos Shift" class="skill-icon">
+                <span class="skill-name">Chronos Shift</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="7">
+                <img src="magic_wall.png" alt="Magic Wall" class="skill-icon">
+                <span class="skill-name">Magic Wall</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="8">
+                <img src="magic_blast.png" alt="Magic Blast" class="skill-icon">
+                <span class="skill-name">Magic Blast</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="9">
+                <img src="magic_storm.png" alt="Magic Storm" class="skill-icon">
+                <span class="skill-name">Magic Storm</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="10">
+                <img src="magic_burst.png" alt="Magic Burst" class="skill-icon">
+                <span class="skill-name">Magic Burst</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="11">
+                <img src="magic_cannon.png" alt="Magic Cannon" class="skill-icon">
+                <span class="skill-name">Magic Cannon</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="12">
+                <img src="magic_fall.png" alt="Magic Fall" class="skill-icon">
+                <span class="skill-name">Magic Fall</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="13">
+                <img src="magic_mastery.png" alt="Magic Mastery" class="skill-icon">
+                <span class="skill-name">Magic Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="14">
+                <img src="magic_knife.png" alt="Magic Knife" class="skill-icon">
+                <span class="skill-name">Magic Knife</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="15">
+                <img src="qadal.png" alt="Qadal" class="skill-icon">
+                <span class="skill-name">Qadal</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="16">
+                <img src="mp_charge.png" alt="MP Charge" class="skill-icon">
+                <span class="skill-name">MP Charge</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="17">
+                <img src="chain_cast.png" alt="Chain Cast" class="skill-icon">
+                <span class="skill-name">Chain Cast</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="18">
+                <img src="power_wave.png" alt="Power Wave" class="skill-icon">
+                <span class="skill-name">Power Wave</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="19">
+                <img src="maximizer.png" alt="Maximizer" class="skill-icon">
+                <span class="skill-name">Maximizer</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="20">
+                <img src="rapid-charge.png" alt="Rapid Charge" class="skill-icon">
+                <span class="skill-name">Rapid Charge</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <div class="skill" data-skill-id="20">
+                <img src="magic_guardian_beam.png" alt="Magic Guardian Beam" class="skill-icon">
+                <span class="skill-name">Magic Guardian Beam</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            
+            <!-- Add missing skill names/images if needed -->
+        </section>
+
+        <section class="skill-category" id="martial-skills">
+            <h2>Martial Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Smash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="2">
+                <span class="skill-name">Bash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="3">
+                <span class="skill-name">Shell Break</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="4">
+                <span class="skill-name">Heavy Smash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="5">
+                <span class="skill-name">Chariot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="6">
+                <span class="skill-name">Abstract Arm</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="7">
+                <span class="skill-name">Sonic Wave</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="8">
+                <span class="skill-name">Earth Bind</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="9">
+                <span class="skill-name">Earthbind</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="10">
+                <span class="skill-name">Tripple Kick</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="11">
+                <span class="skill-name">Rush</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="12">
+                <span class="skill-name">Asura Aura</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="13">
+                <span class="skill-name">Flash Blink</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="14">
+                <span class="skill-name">Martial Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="15">
+                <span class="skill-name">Martial Discipline</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="16">
+                <span class="skill-name">Chakra</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="17">
+                <span class="skill-name">Energy Control</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="18">
+                <span class="skill-name">Aggravate</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="19">
+                <span class="skill-name">Strong Chase Attack</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="20">
+                <span class="skill-name">Slide</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="21">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="22">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Martial Skills -->
+        </section>
+        <section class="skill-category" id="halberd-skills">
+            <h2>Halberd Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Flash Stab</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="2">
+                <span class="skill-name">Cannon Spear</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="3">
+                <span class="skill-name">Dragon Tail</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="4">
+                <span class="skill-name">Dive Impact</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="5">
+                <span class="skill-name">Dragon Tooth</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="6">
+                <span class="skill-name">Draconic Charge</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="7">
+                <span class="skill-name">Deadly Spear</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="8">
+                <span class="skill-name">Punish Ray</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="9">
+                <span class="skill-name">Strike Stab</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="10">
+                <span class="skill-name">Chronos Drive</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="11">
+                <span class="skill-name">Infinite Dimension</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="12">
+                <span class="skill-name">Halberd Mastery</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="13">
+                <span class="skill-name">Critical Spear</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="14">
+                <span class="skill-name">Tornado Lance</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="15">
+                <span class="skill-name">Quick Aura</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="16">
+                <span class="skill-name">War Cry of Struggle</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="17">
+                <span class="skill-name">Godspeed Wield</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="18">
+                <span class="skill-name">Almighty Wield</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="19">
+                <span class="skill-name">Buster Lance</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="20">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="21">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="22">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <div class="skill" data-skill-id="23">
+                <span class="skill-name"></span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+
+            <!-- More Halberd Skills -->
+        </section>
+        <section class="skill-category" id="mononofu-skills">
+            <h2>Mononofu Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Tenryu Ransei</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Mononofu Skills -->
+        </section>
+        <section class="skill-category" id="dual-sword-skills">
+            <h2>Dual Sword Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Phantom Slash</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Dual Sword Skills -->
+        </section>
+        <section class="skill-category" id="crusher-skills">
+            <h2>Crusher Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Chariot</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Crusher Skills -->
+        </section>
+        <section class="skill-category" id="barehand-skills">
+            <h2>Barehand Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">God Hand</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Barehand Skills -->
+        </section>
+        <section class="skill-category" id="sprite-skills">
+            <h2>Sprite Skills</h2>
+            <div class="skill" data-skill-id="1">
+                <span class="skill-name">Spirit Dance</span>
+                <button class="decrease">-</button>
+                <span class="skill-level">0</span>
+                <button class="increase">+</button>
+            </div>
+            <!-- More Sprite Skills -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Skill Simulator</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
