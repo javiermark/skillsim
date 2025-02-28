@@ -51,3 +51,35 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const skillButtons = document.querySelectorAll(".skill");
+    const spCounter = document.getElementById("sp-count");
+    let totalSP = 0;
+
+    skillButtons.forEach(skill => {
+        const decreaseButton = skill.querySelector(".decrease");
+        const increaseButton = skill.querySelector(".increase");
+        const levelDisplay = skill.querySelector(".skill-level");
+        
+        let skillLevel = 0;
+        
+        decreaseButton.addEventListener("click", function() {
+            if (skillLevel > 0) {
+                skillLevel--;
+                totalSP--;
+                levelDisplay.textContent = skillLevel;
+                spCounter.textContent = totalSP;
+            }
+        });
+        
+        increaseButton.addEventListener("click", function() {
+            if (skillLevel < 10) {
+                skillLevel++;
+                totalSP++;
+                levelDisplay.textContent = skillLevel;
+                spCounter.textContent = totalSP;
+            }
+        });
+    });
+});
