@@ -83,3 +83,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+/* mobile responsiveness */
+document.addEventListener("DOMContentLoaded", function() {
+    function adjustLayout() {
+        const skills = document.querySelectorAll(".skill-category");
+        if (window.innerWidth <= 600) {
+            skills.forEach(skill => {
+                skill.style.width = "90%";
+            });
+        } else {
+            skills.forEach(skill => {
+                skill.style.width = "250px";
+            });
+        }
+    }
+    
+    adjustLayout();
+    window.addEventListener("resize", adjustLayout);
+});
